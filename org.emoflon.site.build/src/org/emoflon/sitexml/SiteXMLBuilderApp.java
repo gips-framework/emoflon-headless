@@ -1,26 +1,15 @@
 package org.emoflon.sitexml;
 
 import java.util.ArrayList;
-import java.util.Map;
 
 import org.eclipse.ant.core.AntCorePlugin;
 import org.eclipse.ant.internal.core.AntClassLoader;
-import org.eclipse.core.internal.jobs.InternalJob;
 import org.eclipse.core.resources.IFile;
 import org.eclipse.core.resources.IProject;
 import org.eclipse.core.resources.IWorkspace;
 import org.eclipse.core.resources.ResourcesPlugin;
-import org.eclipse.core.runtime.IProgressMonitor;
-import org.eclipse.core.runtime.IStatus;
-import org.eclipse.core.runtime.jobs.Job;
-import org.eclipse.debug.core.DebugPlugin;
 import org.eclipse.equinox.app.IApplication;
 import org.eclipse.equinox.app.IApplicationContext;
-import org.eclipse.osgi.internal.framework.EquinoxBundle;
-import org.eclipse.osgi.internal.framework.EquinoxContainer;
-import org.eclipse.osgi.internal.loader.EquinoxClassLoader;
-import org.eclipse.osgi.internal.url.EquinoxFactoryManager;
-import org.eclipse.osgi.launch.Equinox;
 import org.eclipse.pde.internal.core.PDECore;
 import org.eclipse.pde.internal.core.exports.SiteBuildOperation;
 import org.eclipse.pde.internal.core.ifeature.IFeatureModel;
